@@ -1,6 +1,5 @@
 const stockPrices = [10,9,8,7,6,5,4,0];
 
-
 function getMaxProfit(prices) {
   var buy = prices[0];
   var sell = prices[1];
@@ -17,7 +16,7 @@ function getMaxProfit(prices) {
 
     }
   }
-  console.log(maxProfit)
+  console.log(maxProfit);
   return maxProfit;
 }
 
@@ -33,7 +32,7 @@ function matchSocks(num, sockArr) {
   for (var i = 0; i < sockArr.length; i++) {
     for (var j = i + 1; j < sockArr.length; j++) {
       if (sockArr[i] == sockArr[j]) {
-        sockArr.splice(j,1)
+        sockArr.splice(j,1);
         numPairs += 1;
         break;
       }
@@ -43,8 +42,6 @@ function matchSocks(num, sockArr) {
 }
 
 matchSocks(numSocks, socks);
-
-asdf
 
 var step = 8;
 var path = "UDDDUDUU";
